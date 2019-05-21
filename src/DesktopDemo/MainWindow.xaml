@@ -1,0 +1,25 @@
+﻿<Window x:Class="DesktopDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:DesktopDemo"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="MainWindow"
+        Width="800"
+        Height="450"
+        mc:Ignorable="d">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Orientation="Vertical">
+            <Button Click="IsSignInButton_Click"
+                    Content="是否已登录" />
+            <Button Margin="0,8,0,0"
+                    Click="SignInButton_Click"
+                    Content="登录" />
+            <Button Margin="0,8,0,0"
+                    Click="SignOutButton_Click"
+                    Content="登出" />
+        </StackPanel>
+    </Grid>
+</Window>

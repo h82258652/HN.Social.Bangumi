@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HN.Social.Bangumi.Uwp</id>
+    <version>$version$</version>
+    <title>HN.Social.Bangumi.Uwp</title>
+    <authors>h82258652</authors>
+    <owners>h82258652</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/h82258652/HN.Social.Bangumi</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HN.Social.Bangumi.Uwp</description>
+    <tags></tags>
+    <dependencies>
+      <dependency id="HN.Social.Bangumi.Core" version="$version$" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\HN.Social.Bangumi.Uwp.dll" target="lib\uap10.0.16299" />
+    <file src="bin\Release\HN.Social.Bangumi.Uwp.xml" target="lib\uap10.0.16299" />
+    <file src="bin\Release\HN.Social.Bangumi.Uwp.pri" target="lib\uap10.0.16299" />
+    <file src="bin\Release\HN.Social.Bangumi.Uwp.pdb" target="lib\uap10.0.16299" />
+  </files>  
+</package>

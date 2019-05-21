@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HN.Social.Bangumi.Desktop</id>
+    <version>$version$</version>
+    <title>HN.Social.Bangumi.Desktop</title>
+    <authors>h82258652</authors>
+    <owners>h82258652</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/h82258652/HN.Social.Bangumi</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HN.Social.Bangumi.Desktop</description>
+    <tags></tags>
+    <dependencies>
+      <dependency id="HN.Social.Bangumi.Core" version="$version$" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\HN.Social.Bangumi.Desktop.dll" target="lib\net461" />
+    <file src="bin\Release\HN.Social.Bangumi.Desktop.xml" target="lib\net461" />
+    <file src="bin\Release\HN.Social.Bangumi.Desktop.pdb" target="lib\net461" />
+  </files>
+</package>
